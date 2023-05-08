@@ -2,22 +2,20 @@ import java.util.*;
 import java.io.*;
 
 public class CodeForcesTemplate {
+    static final int mod = 1_000_000_007;
+    
     public static void main(String[] args) {
         FastScanner fs = new FastScanner();
         PrintWriter out = new PrintWriter(System.out);
 
         int t = fs.nextInt();
         for (int z = 0; z < t; z++) {
-            solve(fs, out);
+            
         }
 
         out.close();
     }
-
-    public static void solve(FastScanner fs, PrintWriter out) {
-
-    }
-
+    
     static void sort(int[] a) {
         ArrayList<Integer> list = new ArrayList<>();
         for (int i : a) {
